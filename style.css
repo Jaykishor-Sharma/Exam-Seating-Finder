@@ -1,0 +1,269 @@
+
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    background:linear-gradient(135deg,#ffe259,#ffa751);
+
+    min-height:100vh;
+
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+
+    padding:15px 0;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+.nav-link{
+
+    color:white !important;
+
+    font-size:17px;
+
+    margin-left:15px;
+
+}
+
+.nav-link:hover{
+
+    color:#ffe259 !important;
+
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero{
+
+    min-height:88vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.hero h1{
+
+    font-size:48px;
+
+    font-weight:bold;
+
+    color:#212529;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    color:#444;
+
+    margin-top:20px;
+
+    margin-bottom:35px;
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.seat-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+.card-body{
+
+    padding:40px;
+
+}
+
+.card-body h4{
+
+    color:#198754;
+
+    font-weight:bold;
+
+}
+
+.card-body i{
+
+    font-size:50px;
+
+    display:block;
+
+    margin-bottom:10px;
+
+}
+
+/* ===========================
+   INPUT
+=========================== */
+
+.form-control{
+
+    height:55px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+}
+
+.form-control:focus{
+
+    box-shadow:0 0 8px #198754;
+
+    border-color:#198754;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn-primary{
+
+    border-radius:10px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    padding:12px;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.student-image{
+
+    width:380px;
+
+    animation:float 3s infinite ease-in-out;
+
+}
+
+/* Floating Animation */
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#198754;
+
+    color:white;
+
+    text-align:center;
+
+    padding:18px;
+
+    font-size:17px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.hero{
+
+padding:40px 20px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.student-image{
+
+width:250px;
+
+margin-top:40px;
+
+}
+
+}
